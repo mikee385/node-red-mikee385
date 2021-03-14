@@ -2,7 +2,10 @@
     "name": "node-red-mikee385",
     "description": "Backup of my personal Node-RED flows",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-homebridge-automation": "0.0.79",
+        "node-red-contrib-hubitat": "1.6.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_raspberrypi.json",
